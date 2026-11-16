@@ -1,21 +1,8 @@
 [OutputJobFile]
 Version=1.0
-Caption=
-Description=
-VaultGUID=
-ItemGUID=
-ItemHRID=
-RevisionGUID=
-RevisionId=
-VaultHRID=
-AutoItemHRID=
-NextRevId=
-FolderGUID=
-LifeCycleDefinitionGUID=
-RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=CAN_Display.OutJob
+Name=
 Description=
 TargetOutputMedium=PDF
 VariantName=[No Variations]
@@ -51,7 +38,7 @@ OutputType2=BOM_PartType
 OutputName2=Bill of Materials
 OutputCategory2=Report
 OutputDocumentPath2=CAN_Display.BomDoc
-OutputVariantName2=
+OutputVariantName2=[No Variations]
 OutputEnabled2=1
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=2
@@ -59,13 +46,29 @@ OutputEnabled2_OutputMedium3=0
 OutputEnabled2_OutputMedium4=0
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-Configuration2_Name1=General
-Configuration2_Item1=TemplateFilename=Board Stack Report.XLT
+Configuration2_Name1=ColumnNameFormat
+Configuration2_Item1=CaptionAsName
+Configuration2_Name2=ForceUpdateSettings
+Configuration2_Item2=False
+Configuration2_Name3=General
+Configuration2_Item3=TemplateFilename=Board Stack Report.XLT
+Configuration2_Name4=GroupOrder
+Configuration2_Item4=DesignItemId=True|Footprint=True
+Configuration2_Name5=SortOrder
+Configuration2_Item5=Line #=Up
+Configuration2_Name6=VisibleOrder
+Configuration2_Item6=Line #=54|Comment=112|DesignItemId=100|Description=100|Designator=114|Quantity=67|Revision ID=132|Manufacturer Part Number 1=169|Manufacturer 1=100|Manufacturer Lifecycle 1=147|Revision State=133|Revision Status=101|Supplier 1=114|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122
+Configuration2_Name7=VisibleOrder_Base
+Configuration2_Item7=Line #=54|Comment=112|DesignItemId=100|Description=100|Designator=114|Quantity=67|Revision ID=132|Manufacturer Part Number 1=169|Manufacturer 1=100|Manufacturer Lifecycle 1=147|Revision State=133|Revision Status=101|Supplier 1=114|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122
+Configuration2_Name8=VisibleOrder_Consolidated
+Configuration2_Item8=Line #=100|Comment=100|Description=100|Designator=100|Revision ID=100|Revision State=100|Revision Status=100|Quantity=100|Manufacturer 1=100|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=114|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122
+Configuration2_Name9=VisibleOrder_Flat
+Configuration2_Item9=Line #=100|Comment=100|Description=100|Designator=100|Revision ID=100|Revision State=100|Revision Status=100|Manufacturer 1=100|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=114|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122
 
 [PublishSettings]
-OutputFilePath2=C:\Users\nathanbc\Desktop\Projects\PCBs\CAN_Display\PDF\CAN_Display.pdf
+OutputFilePath2=C:\Users\nathanbc\Desktop\Projects\PCBs\CAN_Display\.PDF
 ReleaseManaged2=0
-OutputBasePath2=C:\Users\nathanbc\Desktop\Projects\PCBs\CAN_Display\PDF\
+OutputBasePath2=C:\Users\nathanbc\Desktop\Projects\PCBs\CAN_Display
 OutputPathMedia2=
 OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
@@ -92,7 +95,7 @@ PDFACompliance2=Disabled
 PDFVersion2=Default
 OutputFilePath3=
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for CAN_Display
+OutputBasePath3=
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
@@ -105,7 +108,7 @@ OutputFileNameSpecial3=
 OpenOutput3=1
 OutputFilePath4=
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for CAN_Display
+OutputBasePath4=
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=[Output Type]
@@ -142,7 +145,7 @@ WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=C:\Users\nathanbc\Desktop\Projects\PCBs\CAN_Display\PDF\CAN_Display.pdf
+RelativeOutputPath2=C:\Users\nathanbc\Desktop\Projects\PCBs\CAN_Display\.PDF
 OpenOutputs2=1
 RelativeOutputPath3=
 OpenOutputs3=1
@@ -156,4 +159,3 @@ OpenIPCOutput3=0
 EnableReload3=0
 RelativeOutputPath4=
 OpenOutputs4=1
-
