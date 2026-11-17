@@ -44,6 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=V01
 
 [Preferences]
 PrefsVaultGUID=
@@ -220,6 +221,23 @@ GenerateClassCluster=0
 DocumentUniqueId=FEADLWFN
 
 [Document11]
+DocumentPath=Schematic\05_CAN.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=4
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QHFUBVQD
+
+[Document12]
 DocumentPath=BOM\CAN_Display.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -236,7 +254,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document12]
+[Document13]
 DocumentPath=Library\SOP65P640X120-16N.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -253,7 +271,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document14]
 DocumentPath=Library\TSC2007IPWR.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -270,7 +288,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BUWANQOC
 
-[Document14]
+[Document15]
 DocumentPath=Library\SOP80P1176X120-54N.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -287,7 +305,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document15]
+[Document16]
 DocumentPath=Library\W9825G6KH-6.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -304,7 +322,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BKCEOVEK
 
-[Document16]
+[Document17]
 DocumentPath=Library\TC2030-IDC.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -321,7 +339,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AHLRPMML
 
-[Document17]
+[Document18]
 DocumentPath=Library\TC2030-IDC.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -337,6 +355,17 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KHVTBYIK
+
+[ProjectVariant1]
+UniqueId=54f38f24-5bdc-4c65-bb88-b046af479f17
+Description=V01
+AllowFabrication=0
+ParameterCount=0
+VariationCount=3
+Variation1=Designator=C53|UniqueId=\MMNREKSZ|Kind=1|AlternatePart=
+Variation2=Designator=R16|UniqueId=\HIMYDXNA|Kind=1|AlternatePart=
+Variation3=Designator=R17|UniqueId=\KBSPSHXK|Kind=1|AlternatePart=
+ParamVariationCount=0
 
 [Configuration1]
 Name=Sources
@@ -1415,7 +1444,7 @@ Net4=NetName=GND|NetColor=$00666666
 Net5=NetName=LED_A+|NetColor=$009999EA
 Net6=NetName=LED_K-|NetColor=$00CCCCCC
 Net7=NetName=NetC?_1|NetColor=clRed
-Net8=NetName=NetC?_2|NetColor=$006666E0
+Net8=NetName=NetC?_2|NetColor=clBlack
 Net9=NetName=NetC2_2|NetColor=$00000098
 Net10=NetName=SW_3V|NetColor=clRed
 Net11=NetName=SW_5V|NetColor=clRed
