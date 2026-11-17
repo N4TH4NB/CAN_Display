@@ -1482,7 +1482,9 @@ Net8=NetName=NetC?_2|NetColor=clBlack
 Net9=NetName=NetC2_2|NetColor=$00000098
 Net10=NetName=SW_3V|NetColor=clRed
 Net11=NetName=SW_5V|NetColor=clRed
-Net12=NetName=VBAT|NetColor=$00000098
+Net12=NetName=SYS_5V|NetColor=clRed
+Net13=NetName=USB_5V|NetColor=clRed
+Net14=NetName=VBAT|NetColor=$00000098
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
