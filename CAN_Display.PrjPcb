@@ -390,6 +390,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JTHVBWNA
 
+[Document21]
+DocumentPath=CAN_Display.OutJob
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [ProjectVariant1]
 UniqueId=54f38f24-5bdc-4c65-bb88-b046af479f17
 Description=V01
@@ -441,7 +458,7 @@ Wir_PrintColor=0
 Ldr_PrintColor=0
 Esd_PrintColor=0
 SCH_ExpandLogicalToPhysical=0
-SCH_VariantName=[No Variations]
+SCH_VariantName=V01
 SCH_ExpandComponentDesignators=-1
 SCH_ExpandNetlabels=0
 SCH_ExpandPorts=0
@@ -1480,11 +1497,13 @@ Net6=NetName=LED_K-|NetColor=$00CCCCCC
 Net7=NetName=NetC?_1|NetColor=clBlack
 Net8=NetName=NetC?_2|NetColor=clBlack
 Net9=NetName=NetC2_2|NetColor=$00000098
-Net10=NetName=SW_3V|NetColor=clRed
-Net11=NetName=SW_5V|NetColor=clRed
-Net12=NetName=SYS_5V|NetColor=clRed
-Net13=NetName=USB_5V|NetColor=clRed
-Net14=NetName=VBAT|NetColor=$00000098
+Net10=NetName=NetD9_1|NetColor=clRed
+Net11=NetName=SW_3V|NetColor=clRed
+Net12=NetName=SW_5V|NetColor=clRed
+Net13=NetName=SYS_5V|NetColor=clRed
+Net14=NetName=USB_5V|NetColor=clRed
+Net15=NetName=VBAT|NetColor=$00000098
+Net16=NetName=VUSB|NetColor=clRed
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
