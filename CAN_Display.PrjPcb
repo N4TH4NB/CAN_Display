@@ -238,6 +238,23 @@ GenerateClassCluster=0
 DocumentUniqueId=QHFUBVQD
 
 [Document12]
+DocumentPath=Schematic\06_WIFI_BLE.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=OFAIWPXI
+
+[Document13]
 DocumentPath=BOM\CAN_Display.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -254,7 +271,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document14]
 DocumentPath=Library\SOP65P640X120-16N.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -271,7 +288,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document14]
+[Document15]
 DocumentPath=Library\TSC2007IPWR.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -288,7 +305,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BUWANQOC
 
-[Document15]
+[Document16]
 DocumentPath=Library\SOP80P1176X120-54N.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -305,7 +322,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document16]
+[Document17]
 DocumentPath=Library\W9825G6KH-6.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -322,7 +339,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BKCEOVEK
 
-[Document17]
+[Document18]
 DocumentPath=Library\TC2030-IDC.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -339,7 +356,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AHLRPMML
 
-[Document18]
+[Document19]
 DocumentPath=Library\TC2030-IDC.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -356,7 +373,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KHVTBYIK
 
-[Document19]
+[Document20]
 DocumentPath=Library\TPD4E05U06DQAR.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -373,7 +390,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SJDVTLIC
 
-[Document20]
+[Document21]
 DocumentPath=Library\IC_TPD4E05U06DQAR.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -389,23 +406,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JTHVBWNA
-
-[Document21]
-DocumentPath=CAN_Display.OutJob
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
 
 [ProjectVariant1]
 UniqueId=54f38f24-5bdc-4c65-bb88-b046af479f17
